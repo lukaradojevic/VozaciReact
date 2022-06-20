@@ -5,6 +5,7 @@ function NavBar(){
         <div>
             <nav>
                 <Link to={"/"}>F1 VOZAČI</Link>
+                <Link to={"/rezervacija"}>REZERVACIJA</Link>
             </nav>
         </div>
     )

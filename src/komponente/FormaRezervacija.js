@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import NavBar from './NavBar';
 
-function FormaRezervacija(){
+function FormaRezervacija(props){
 
     const [rezervacija, setRezervacija] = useState({
         imePrezime: '',
@@ -63,7 +63,7 @@ function FormaRezervacija(){
                     <label>Email</label>
                     <input type="text" className="form-control" onChange={postaviEmail} value={rezervacija.email}/>
 
-                    <button type="submit" className="btn btn-info" id="btnrezervisi">Rezerviši</button>
+                    <button type="submit" onClick={(e) => props.submit(e, rezervacija)} className="btn btn-info" id="btnrezervisi">Rezerviši</button>
 
 
             </form>

@@ -43,7 +43,7 @@ nav {
   background-color:azure;
 }
 
-a {
+nav a {
   font-size: 30px;
   text-decoration: none;
   color: #8461ec;
@@ -70,5 +70,13 @@ a {
   margin-top: 50px;
 }
 
+#formarezervacija{
+  width: 750px;
+  margin-top: 50px;
+  margin-left: 380px;
+}
 
-
+#btnrezervisi{
+  margin-top: 15px;
+  width: 200px;
+}

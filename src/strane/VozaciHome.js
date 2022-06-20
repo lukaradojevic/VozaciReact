@@ -1,7 +1,11 @@
+import NavBar from "../komponente/NavBar";
+
 function VozaciHome(){
     return (
         <div>
             
+            <NavBar />  
+
         </div>
     )
 }

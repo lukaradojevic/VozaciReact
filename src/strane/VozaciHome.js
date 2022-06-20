@@ -1,5 +1,6 @@
 import NavBar from "../komponente/NavBar";
 import {useState} from 'react'
+import InfoVozaci from "../komponente/InfoVozaci";
 
 function VozaciHome(){
 
@@ -36,6 +37,8 @@ function VozaciHome(){
             <h2 id="nas-takm-godine">Unesite takmičarsku godinu</h2>  
             <input type="text" className="form-control" id="unos-takm-godine" onChange={postaviGodinu} value={godina} />  
             <button type="button" onClick={getInfo} className="btn btn-info btn-lg" id="btnprikazi">Prikaži</button>
+
+            <InfoVozaci info={info}/>
 
         </div>
     )
